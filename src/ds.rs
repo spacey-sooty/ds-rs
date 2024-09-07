@@ -201,7 +201,7 @@ impl DriverStation {
 }
 
 /// Enum representing a value from a Joystick to be transmitted to the roboRIO
-#[derive(Debug, Copy, Clone, PartialEq)]
+#[derive(Debug, Copy, Clone, PartialEq, serde::Serialize)]
 pub enum JoystickValue {
     /// Represents an axis value to be sent to the roboRIO
     ///

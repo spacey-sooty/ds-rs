@@ -26,3 +26,4 @@ futures-channel = "0.3.30"
 futures-util = { version = "0.3.30", features = ["sink", "async-await"] }
 futures = "0.3.30"
 rand = "0.8.5"
+serde = { version = "1", features = ["derive"] }
